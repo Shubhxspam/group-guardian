@@ -18,7 +18,7 @@ Bot = Client(
 
 #-----------------------------------------------------------------
 
-@Bot.on_message(filters.private & filters.command("start"))
+@Bot.on_message(filters.private & filters.command("gstart"))
 async def start(bot, update):
     await update.reply("""Hi there! I'm  ❥⍣⃝𝐍ᴀᴠʏᴀⓍ≛⃝ 𝐃ᴇᴍᴏɴ🦋⃟❱‌ٖ bot. I'm here to help you keep your group clean and safe for everyone. Here are the main features I offer:
 
