@@ -1,5 +1,4 @@
 from pyrogram import Client,filters
-import requests
 import re
 import config 
 
